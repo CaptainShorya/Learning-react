@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 4rem;
+    background-color: yellow;
+    align-items: center;
+}
+
+button img{
+    max-width: 40px;
+}
