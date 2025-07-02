@@ -1,0 +1,9 @@
+//.babelrc is a Babel configuration file — just a JSON file that lists the presets and plugins Babel should use when compiling your code.
+//1. It tells Babel what to do
+//Babel doesn’t compile JSX, TypeScript, or modern JavaScript by default.
+//Without instructions, Babel treats your file as plain old JavaScript, and errors out on anything new or non-standard (like <div> in JSX).
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "sourceMaps": true
+}
