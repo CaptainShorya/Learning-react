@@ -1,0 +1,23 @@
+{
+  "name": "06parcel",
+  "version": "1.0.0",
+  "description": "",
+  "source" : "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel",
+    "build" : "parcel build",
+    "clean": "rimraf .parcel-cache dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
